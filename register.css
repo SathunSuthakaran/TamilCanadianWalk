@@ -1,0 +1,78 @@
+.body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #8C8979;
+}
+
+.submit {
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Abel';
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-sizing: border-box;
+    }
+.submit:hover {
+  filter: brightness(70%);
+}
+  
+  .textbox {
+    font-size: 7rem;
+  }
+  
+  ::placeholder {
+    font-size: 2rem;
+    font-family: 'Abel';
+  }
+
+  .bsinput {
+    height: 6rem;
+    width: 50rem;
+    padding-left: 1rem;
+    background-color: whitesmoke;
+  }
+
+  .Message {
+    font-family: 'Abel';
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  input[type=text] {
+    font-size: 2rem;
+    font-family: 'Abel';
+  }
+
+  @media (max-width: 575.98px) {
+    .textbox {
+      font-size: 2rem;
+    }
+    .submit {
+      font-size: 4rem;
+    }
+    .Message {
+      font-size: 2.6rem;
+    }
+    .bsinput {
+      height: 5rem;
+      width: 100%;
+      padding-left: 1rem;
+      background-color: whitesmoke;
+    }
+  }

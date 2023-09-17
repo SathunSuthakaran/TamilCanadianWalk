@@ -1,0 +1,121 @@
+
+    body {
+  background-color: #8C8979;
+      color: #000;
+      margin:0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .swiper {
+      width: 99%;
+      text-align: center;
+      height: 15rem;
+      margin-top: 1rem;
+      padding-bottom: 1rem; 
+    }
+    .swiper-pagination-progressbar-fill {
+      background-color: white;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background-color: #8C8979;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 18rem;
+      object-fit: cover;
+      border-radius: 50px;
+      opacity: 0.9;
+    }
+    .swiper-slide img:hover{
+      opacity: 0.7;
+    }
+    .swiper-button-next {
+      color: black;
+      font-weight: bold;
+      font-size: 5rem;
+    }
+    .swiper-button-prev {
+      color: black;
+      font-weight: bold;
+    }
+
+
+
+.gallery-title {
+  font-size: 5rem;
+  text-align: center;
+  background-color: #8C8979;
+  color: #181723;
+  font-family: 'Abel';
+  border-width: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+  .Event-title {
+    font-family: 'Abel';
+    font-size: 50px;
+    margin-left: 1rem;
+    color: 181723;
+  }
+    footer {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+    
+      .logo {
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+        height: 12rem;
+        width: 30rem;
+      }
+
+      .accordion-body {
+        background-color: #8C8979;
+      } 
+
+      .accordion {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .amount {
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Abel';
+        font-weight: bold;
+      }
+
+      .accordion-button:not(.collapsed) {
+        background-color: black;
+        color: white;
+      
+      }
+
+      @media (max-width: 575.98px) {
+        .gallery-title {
+          font-size: 3rem;
+          font-weight: bold;
+        }
+        .Event-title {
+          font-size: 2rem;
+        }
+
+        .amount {
+          font-size: 1rem;
+        }
+      }
